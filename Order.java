@@ -1,17 +1,17 @@
 
 public class Order {
-    private IceCreamCombination combination;
+    private NewIceCreamCombination combination;
     private int quantity;
     private String orderType;
 
     public Order() {
     }
 
-    public IceCreamCombination getCombination() {
+    public NewIceCreamCombination getCombination() {
         return combination;
     }
 
-    public void setCombination(IceCreamCombination combination) {
+    public void setCombination(NewIceCreamCombination combination) {
         this.combination = combination;
     }
 

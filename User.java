@@ -3,7 +3,7 @@ import java.util.List;
 
 public class User {
     private String username;
-    private List<IceCreamCombination> favoriteCombinations;
+    private List<NewIceCreamCombination> favoriteIceCombinations;
 
     public User() {
     }
@@ -16,11 +16,11 @@ public class User {
         this.username = username;
     }
 
-    public List<IceCreamCombination> getFavoriteCombinations() {
-        return favoriteCombinations;
+    public List<IceCreamCombination> getFavoriteIceCombinations() {
+        return favoriteIceCombinations;
     }
 
-    public void setFavoriteCombinations(List<IceCreamCombination> favoriteCombinations) {
-        this.favoriteCombinations = favoriteCombinations;
+    public void setFavoriteIceCombinations(List<NewIceCreamCombination> favoriteIceCombinations) {
+        this.favoriteIceCombinations = favoriteIceCombinations;
     }
 }

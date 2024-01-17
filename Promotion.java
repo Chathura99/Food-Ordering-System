@@ -2,16 +2,16 @@ Promotion
 import java.util.List;
 
 public class Promotion {
-    private List<Promotion> currentPromotions;
+    private List<Promotion> currentPromotionsOnOrder;
 
     public Promotion() {
     }
 
-    public List<Promotion> getCurrentPromotions() {
-        return currentPromotions;
+    public List<Promotion> getCurrentPromotionsOnOrder() {
+        return currentPromotionsOnOrder;
     }
 
-    public void setCurrentPromotions(List<Promotion> currentPromotions) {
-        this.currentPromotions = currentPromotions;
+    public void setCurrentPromotions(List<Promotion> currentPromotionsOnOrder) {
+        this.currentPromotionsOnOrder = currentPromotionsOnOrder;
     }
 }
